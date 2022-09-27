@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Header */
+.navbar {
+    background-color: #181733;
+    width: 100%;
+}
+
+.main-logo {
+    width: 60px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+}
+
+.navbar-toggler__icon {
+    color: white;
+    font-size: 30px;
+}
+
+/* Slider */
+
+.carousel-item img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-item h3,
+.carousel-item p {
+    text-shadow: 1px 1px blue;
+    /* background-image: linear-gradient(90deg,#cd122d,#154284);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+}
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
