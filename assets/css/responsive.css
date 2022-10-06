@@ -2,6 +2,10 @@
 @media (max-width: 768px) {
     
 
+    .navbar{
+        height: auto;
+    }
+
     /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
