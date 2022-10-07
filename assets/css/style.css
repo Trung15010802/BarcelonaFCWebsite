@@ -5,6 +5,7 @@
 
 }
 
+
 /* General */
 .btn {
     background-image: linear-gradient(90deg, #cd122d, #154284);
@@ -15,6 +16,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    line-height: normal;
+
 }
 
 /* End Genaral */
@@ -168,7 +171,7 @@
 }
 
 /* First team */
-
+.legend-heading,
 .honours-heading,
 .history-heading,
 .team-heading {
@@ -200,8 +203,10 @@
     border: 1px solid #D8DBE2;
     background-color: #D8DBE2;
 
+
 }
 
+.legend-content__label,
 .honours-intro__label,
 .team-list__label {
     width: fit-content;
@@ -216,7 +221,6 @@
     margin-bottom: 18px;
     width: 350px;
 }
-
 
 /* Hounours */
 .honours-wrap {
@@ -243,5 +247,36 @@
 }
 
 .honours-item {
-    width: 600px;
+    width: 50vw;
+}
+
+/* Lengend */
+
+.legend-body {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.legend-content__item {
+    width: 306px;
+    height: 176px;
+    position: relative;
+    margin: 18px 0;
+}
+
+.legend-content__item-name {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.legend-content__item-img {
+    width: 100%;
+    height: 100%;
+}
+
+.legend-content__item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
