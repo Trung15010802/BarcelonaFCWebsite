@@ -202,7 +202,10 @@
     height: auto;
     border: 1px solid #D8DBE2;
     background-color: #D8DBE2;
+}
 
+.card-player:hover {
+    top: -10px;
 
 }
 
@@ -266,6 +269,12 @@
     height: 176px;
     position: relative;
     margin: 18px 0;
+    transition: transform .2s;
+}
+
+.legend-content__item:hover {
+    transform: scale(1.5);
+    z-index: 1;
 }
 
 .legend-content__item-name {
@@ -285,6 +294,7 @@
     height: 100%;
     object-fit: cover;
 }
+
 
 /* Footer */
 #footer {
@@ -357,14 +367,14 @@
     padding-left: 0;
 }
 
-.socials-item{
+.socials-item {
     font-size: 50px;
     text-decoration: none;
     display: inline;
-   
+
 }
 
-.socials-item__link{
+.socials-item__link {
     display: inline-block;
     text-decoration: none;
     padding: 10px;
@@ -373,6 +383,6 @@
 
 }
 
-.footer-sign{
+.footer-sign {
     color: white;
 }
