@@ -1,22 +1,3 @@
-CÁC CLASS BS5 ĐƯỢC SỬ DỤNG
-#header
-.container-fluid: cung cấp một vùng chứa có chiều rộng đầy đủ, kéo dài toàn bộ chiều rộng của khung nhìn
-.navbar: Tạo thanh điều hướng tiêu chuẩn
-.navbar-expand-md: Lớp responsive xếp thanh điều hướng theo chiều dọc trên màn hình nhỏ
-.navbar-brand: tự động tạo kiểu hình ảnh cho vừa với thanh điều hướng theo chiều dọc.
-.navbar-toggler: để sử dụng với plugin thu gọn của và các hành vi chuyển đổi điều hướng khác.
-.justify-content-between: Căn giữa item
-.collapse .navbar-collapse: nhóm và ẩn nội dung thanh điều hướng bằng điểm ngắt
-.navbar-nav .nav-item: Để thêm liên kết bên trong thanh điều hướng,  thêm phần tử <li> có lớp .nav-item theo sau là phần tử <a> có lớp .nav-link
-
-#slider
-.carousel: tạo một silder, bằng chuyền hình ảnh
-.slide :Thêm hiệu ứng chuyển tiếp và hoạt ảnh CSS khi trượt từ mục này sang mục tiếp theo
-.carousel-inner: thêm silde vô carousel
-.carousel-caption: thêm caption cho silde 
-.active: cần được thêm vào một trong các trang chiếu. Nếu không, băng chuyền sẽ không hiển thị
-.carousel-indicators: Tạo các biểu tượng tương trưng cho silde 
-
-#
-
-#JAVASCRIPT
+Web giới thiệu về CLB FC Barcelona.
+Xử lý responsive. 
+Tạo feedback php kết nối CSDL
